@@ -1,0 +1,70 @@
+.calendar {
+  padding-top: 20px;
+
+  &__heading {
+    display: flex;
+  }
+
+  &__btn {
+    display: inline;
+    background-color: $white;
+    border: 1px solid $border;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__month {
+    font-weight: 400;
+    margin: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  &__today {
+    font-size: 0.8em;
+    border: 1px solid $border;
+    border-radius: 3px;
+    margin: 0;
+    margin-left: 12px;
+    padding: 3px 5px;
+  }
+}
+
+.left-arrow,
+.right-arrow {
+  border: 5px solid transparent;
+  display: inline-flex;
+  align-self: center;
+}
+
+.left-arrow {
+  border-right: 5px solid $gray;
+  border-left: none;
+}
+
+.right-arrow {
+  border-left: 5px solid $gray;
+  border-right: none;
+}
+
+.table {
+  text-indent: initial;
+  white-space: normal;
+  text-align: start;
+  border-spacing: 2px;
+  border-color: $grey;
+  font-variant: normal;
+  border: 1px solid $grey;
+  // margin-top: 15px;
+  // width: 100%;
+  // border-collapse: collapse;
+  // font-size: 11px;
+  // font-weight: 400;
+  // color: $table-color;
+}
+
+td,
+th {
+  border: 0.16px solid rgba(200, 200, 200, 0.6);
+}

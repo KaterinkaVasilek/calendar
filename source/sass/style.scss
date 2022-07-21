@@ -1,0 +1,9 @@
+@import "normalize";
+@import "variables";
+@import "partials/header";
+@import "partials/calendar";
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+}

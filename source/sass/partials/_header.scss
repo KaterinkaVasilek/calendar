@@ -1,0 +1,37 @@
+.header {
+  background-color: $header-background;
+  margin-top: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  &__content {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__input {
+    border: 1px solid $border;
+    box-shadow: 0 2px 6px 1px rgba(34, 60, 80, 0.2) inset;
+    width: 270px;
+    height: 30px;
+  }
+}
+
+input::placeholder {
+  color: $placeholder-color;
+}
+
+.btn {
+  background-color: $btn-background;
+  color: $white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-shadow: 3px 4px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.btn:not(:last-child) {
+  margin-right: 15px;
+}
